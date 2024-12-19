@@ -1,0 +1,8 @@
+<page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="page.top">
+            <block class="JerVoo\Breadcrumbs\Block\Html\Breadcrumbs" name="breadcrumbs" as="breadcrumbs" template="JerVoo_Breadcrumbs::html/breadcrumbs.phtml"/>
+        </referenceContainer>
+    </body>
+</page>
